@@ -22,7 +22,7 @@ const Profile = ({ avatar, username, tag, location, stats }) => {
         </li>
         <li>
           <span className={styles.label}>Likes</span>
-          <span className={styles.quantity}>{stats.likes}</span>
+          <span className={styles.likes}>{stats.likes}</span>
         </li>
       </ul>
     </div>
